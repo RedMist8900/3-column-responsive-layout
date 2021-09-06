@@ -1,0 +1,11 @@
+@media all {
+    .aside { flex: 1 0 0; }
+}
+  
+@media all {
+    .content    { flex: 3 0px; }
+    .leftSection { order: 1; } 
+    .content    { order: 2; }
+    .rightSection { order: 3; }
+    .footer  { order: 4; }
+}
